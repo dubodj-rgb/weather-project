@@ -93,11 +93,11 @@ const resetApp = () => {
         </button>
       </div>
 
-      <div className={`
-        relative z-20 w-full max-w-md flex flex-col items-center 
-        transition-all duration-1000 ease-in-out
-        ${weather ? 'pt-10' : 'pt-[30vh]'}
-      `}>
+<div className={`
+  relative z-20 w-full max-w-md flex flex-col items-center 
+  transition-all duration-1000 ease-in-out
+  ${weather ? 'pt-24 md:pt-10' : 'pt-[30vh]'} 
+`}>
         
         {/* The Title: We use 'max-h' to slide it out of existence smoothly */}
         <div className={`
